@@ -10,8 +10,8 @@
 #     7 -> "нельзя определить"
 s = int(input('Введите количество журавликов:'))
 if s % 2 == 0:
-  petya = int(s * 0.17) 
-  serega = int(s * 0.17)
+  petya = s // 6
+  serega = s // 6
   katya = (petya + serega) * 2
   print(f"{petya}  {katya}  {serega}")
 else: 
