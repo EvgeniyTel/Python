@@ -12,4 +12,4 @@ start = int(input('Введите начало диапазона: '))
 end = int(input('Введите конец диапазона: '))
 for i in range(len(list_1)):
   if list_1[i] >= start and list_1[i] <= end:
-    print(f"{list_1[i]}({i})")
+    print(f"{i}({list_1[i]})")
